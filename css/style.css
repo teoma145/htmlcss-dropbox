@@ -28,3 +28,18 @@
 .hero{
     background-color: var(--colornav);
 }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 5em;
+}
+.heroimg{
+    width: 60%;
+}
+.font{
+    font-size: 1.3em;
+    padding: 15px 5px;
+}
+
