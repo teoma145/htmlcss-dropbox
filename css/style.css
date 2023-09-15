@@ -22,9 +22,9 @@
 .padding-nav a{
     padding: 5px 10px;
 }
-.debug{
+/*.debug{
     border: 1px solid black;
-}
+}*/
 .hero{
     background-color: var(--colornav);
 }
@@ -37,9 +37,37 @@ h1{
 }
 .heroimg{
     width: 60%;
+    position: absolute;
+    top:280px;
+    right:20px;
+    
+    
 }
 .font{
     font-size: 1.3em;
     padding: 15px 5px;
 }
-
+.buttonhero{
+    display: block;
+    color: white;
+    padding: 10px 0;
+    background-color: var(--color-button);
+    margin-top: 60px;
+    margin-bottom: 60px;    
+}
+.position{
+    position: relative;
+}
+.widthhero{
+    width: 40%;
+    
+}
+.block{
+    display: block;
+    padding-top: 90px;
+}
+@media (max-width: 768px) {
+    h1 {
+      font-size: 1.5em;
+    }
+  }
