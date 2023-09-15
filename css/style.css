@@ -1,0 +1,30 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --colornav:#B4D0E6;
+    --color-button:#0061FE;
+    --color-footer:#000000;
+}
+.flex{
+    display: flex;
+}
+.padding-nav{
+    padding: 15px;
+}
+
+.justify-space{
+    justify-content: space-between;
+}
+.padding-nav a{
+    padding: 5px 10px;
+}
+.debug{
+    border: 1px solid black;
+}
+.hero{
+    background-color: var(--colornav);
+}
