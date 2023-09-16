@@ -15,6 +15,12 @@
 .padding-nav{
     padding: 15px;
 }
+.positionfix{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+}
 
 .justify-space{
     justify-content: space-between;
@@ -22,9 +28,9 @@
 .padding-nav a{
     padding: 5px 10px;
 }
-/*.debug{
+.debug{
     border: 1px solid black;
-}*/
+}
 .hero{
     background-color: var(--colornav);
 }
@@ -34,17 +40,18 @@
 }
 h1{
     font-size: 5em;
+    padding-top: 80px;
 }
 .heroimg{
-    width: 60%;
+    width: 65%;
     position: absolute;
     top:280px;
-    right:20px;
-    
+    right:10px;
     
 }
+
 .font{
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding: 15px 5px;
 }
 .buttonhero{
@@ -59,12 +66,12 @@ h1{
     position: relative;
 }
 .widthhero{
-    width: 40%;
+    width: 35%;
     
 }
 .block{
     display: block;
-    padding-top: 90px;
+    padding: 60px 0 0 15px;
 }
 @media (max-width: 768px) {
     h1 {
@@ -80,4 +87,33 @@ h2{
 }
 .Fatturazione{
     padding: 10px 20px;
+}
+.cards{
+    margin: 80px 20px;
+    width:calc( 100% / 3);
+}
+h3{
+    padding: 20px 0;
+}
+.text-align{
+    text-align: center;
+}
+.lowpadding{
+    padding: 10px 20px;
+}
+.opacity{
+    opacity: 0.7;
+}
+li{
+    padding: 10px 0;
+}
+ul{
+   list-style-type: none;
+}
+.buttonmain{
+    display: block;
+    color: white;
+    padding: 10px 10px;
+    background-color: var(--color-button);
+    margin: 20px 5px;
 }
