@@ -12,6 +12,10 @@
 .flex{
     display: flex;
 }
+header a {
+    text-decoration: none;
+    color: black;
+}
 .padding-nav{
     padding: 15px;
 }
@@ -185,4 +189,52 @@ h5{
 }
 .paddingbottom{
     padding-bottom:50px;
+}
+main a{
+    color: blue;
+}
+.squares{
+    width:calc(100% /3);
+    height: calc(100vw / 3);
+}
+.squarex4{
+    width: 50%;
+    height: 50%;
+    
+}
+.squares img{
+    width: 50%;
+    margin: auto;
+    
+}   
+.green{
+    background-color:#A2D39B;
+}
+.red{
+    background-color: #61082B;
+}
+.lightblu{
+    background-color:#0093CE;
+}
+.orange{
+    background-color: #FF1C1C;
+}
+.padding-square{
+    padding: 40px 40px;
+}
+.marginhr-square{
+    margin: 60px 0px;
+    width: 30%;
+}
+.orange-red{
+    background-color:#D5001F;
+}
+.azure{
+    background-color: #B4D0E7;
+}
+.blu{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
 }
