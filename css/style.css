@@ -67,8 +67,9 @@ h1{
 }
 .widthhero{
     width: 35%;
-    
 }
+
+
 .block{
     display: block;
     padding: 60px 0 0 15px;
@@ -94,7 +95,7 @@ h2{
 
 }
 .cards2{
-    margin: 80px 0px 80px 50px ;
+    margin: 80px 0px 80px 45px ;
     width:calc( 100% / 3);
 }
 h3{
@@ -102,6 +103,10 @@ h3{
 }
 .text-align{
     text-align: center;
+}
+.text-indent{
+    text-indent:-0.5em;
+    margin-left:14px;
 }
 .lowpadding{
     padding: 10px 20px;
@@ -150,10 +155,11 @@ h5{
     margin-right:20px;
 }
 .imagepartner{
-    width: 700px;
-    height: 650px;
+    max-width: 700px;
+    max-height: 650px;
     object-fit: fill;
     padding: 60px 30px 20px 0px;
+    max-width: 100%;
 }
 .h3partner{
     padding: 120px 0 20px 0px;
@@ -169,4 +175,14 @@ h5{
     background-color: white;
     padding: 10px;
     margin: 60px 5px 10px 0;
+}
+.cardsx6{
+    max-width: calc(100% / 3);
+    padding: 0 10px;
+}
+.cardsx6 img{
+    width: 100%;
+}
+.paddingbottom{
+    padding-bottom:50px;
 }
