@@ -9,6 +9,9 @@
     --color-button:#0061FE;
     --color-footer:#000000;
 }
+html {
+  scroll-behavior: smooth;
+}
 .flex{
     display: flex;
 }
@@ -17,23 +20,50 @@ header a {
     color: black;
 }
 .padding-nav{
-    padding: 15px;
+    margin: 15px 20px;
 }
 .positionfix{
     position: fixed;
     width: 100%;
     z-index: 1000;
     background-color: white;
+    height: 60px;
+    
+}
+
+.logonav{
+    height: 25px;
+    width: 120px;
+    
+}
+nav a:hover{
+    background-color: rgba(204, 204, 137, 0.4);
+    padding: 5px 15px;
+    margin: 0;
+    
 }
 
 .justify-space{
     justify-content: space-between;
 }
 .padding-nav a{
-    padding: 5px 10px;
+    margin: 4px 15px;
+    font-size: 1em;
+    white-space: nowrap;
 }
+.startbutton{
+    background-color: var(--color-button);
+    padding: 2px 8px 4px 8px;
+    color: white;
+    border: none;
+}
+.a-color{
+    height: 100%;
+}
+
 .debug{
-    border: 1px solid black;
+    border: 1px solid rgba(0,0,0,0.2);
+    
 }
 .hero{
     background-color: var(--colornav);
@@ -42,16 +72,19 @@ header a {
     max-width: 1200px;
     margin: 0 auto;
 }
+.container2{
+    max-width: 1300px;
+    margin: 0 auto;
+}
 h1{
     font-size: 5em;
-    padding-top: 120px;
+    padding-top: 135px;
 }
 .heroimg{
     width: 65%;
     position: absolute;
-    top:320px;
-    right:10px;
-    
+    top:340px;
+    right:0px;
 }
 
 .font{
@@ -61,10 +94,12 @@ h1{
 .buttonhero{
     display: block;
     color: white;
-    padding: 10px 0;
+    padding: 10px 5px;
     background-color: var(--color-button);
     margin-top: 60px;
-    margin-bottom: 60px;    
+    margin-bottom: 60px; 
+    border: none; 
+    font-size: 0.8em;  
 }
 .position{
     position: relative;
@@ -76,11 +111,12 @@ h1{
 
 .block{
     display: block;
-    padding: 60px 0 0 15px;
+    padding: 50px 0 0 5px;
+    font-size: 40px;
 }
-@media (max-width: 768px) {
+@media (max-width: 860px) {
     h1 {
-      font-size: 1.5em;
+      font-size: 1.3em;
     }
   }
 .wrap{
@@ -121,19 +157,21 @@ h3{
 .opacity{
     opacity: 0.7;
 }
-li{
+main li{
     padding: 15px 0;
 }
-ul{
+main ul{
    list-style-type: none;
    padding: 20px 0;
 }
 .buttonmain{
     display: block;
     color: white;
-    padding: 10px 10px;
+    padding: 10px 20px;
     background-color: var(--color-button);
-    margin: 25px 0px;
+    margin: 20px 0px;
+    border: none;
+    width: 100%;
 }
 .hr-cards{
     width: 30%;
@@ -147,7 +185,7 @@ h4{
     
 }
 .enterprisepadd{
-    padding:15px 15px
+    padding:15px 15px 30px 15px;
 }
 .font-prise{
     font-size: 1.6em;
@@ -156,7 +194,8 @@ h5{
     font-size: 1.1em;
 }
 .buttonmargin1{
-    margin-right:20px;
+    margin-right:40px;
+    width: 90%;
 }
 .imagepartner{
     max-width: 700px;
@@ -207,6 +246,9 @@ main a{
     margin: auto;
     
 }
+.squarex4 img{
+    filter: invert(100%);
+}
 
 .green{
     background-color:#A2D39B;
@@ -224,7 +266,7 @@ main a{
     padding: 40px 40px;
 }
 .marginhr-square{
-    margin: 60px 0px;
+    margin-top: 30px;
     width: 30%;
 }
 .orange-red{
@@ -239,13 +281,77 @@ main a{
 .yellow{
     background-color: yellow;
 }
-
+.color-h2{
+    color: #61082B;
+    margin-left: 100px;
+}
+.adjust{
+    
+    height: 10vw;
+    width: 25vw;
+    padding: 30px 0;
+    overflow: auto;
+}
 
 .buttonbrand{
     margin: 110px 0;
     width: 200px;
     height: 50px;
+    border: none;
+    background-color: white;
+    margin-right: 100px;
 }
 .fa-solid{
     padding: 15px;
 }
+footer{
+    background-color: var(--color-footer);
+}
+footer h5{
+    color: white;
+    padding: 10px 0;
+}
+
+.padding-footer{
+    padding: 80px 10px 20px 10px
+}
+footer li{
+    padding: 5px 0;
+}
+footer a{
+    text-decoration: none;
+    color: white; 
+    font-size: 0.8em;
+}
+footer hr{
+    width: 20%;
+    color: white;
+    margin-bottom: 30px;
+}
+footer i{
+    color: white;
+    
+}
+.italiano{
+    color: white;
+    padding: 13px 0;
+}
+.column{
+    flex-direction: column;
+}
+.appear{
+    display: none;
+    padding: 20px 0px;
+}
+.hoverappear:hover .appear{
+    display: block;
+    flex-wrap: wrap;
+    
+}
+button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+
+
