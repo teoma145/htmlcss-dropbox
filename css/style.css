@@ -12,6 +12,9 @@
 html {
   scroll-behavior: smooth;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .flex{
     display: flex;
 }
@@ -31,6 +34,9 @@ header a {
     
 }
 
+.relative{
+    position: relative;
+}
 .logonav{
     height: 25px;
     width: 120px;
@@ -77,19 +83,19 @@ nav a:hover{
     margin: 0 auto;
 }
 h1{
-    font-size: 5em;
+    font-size: 4em;
     padding-top: 135px;
 }
 .heroimg{
     width: 65%;
     position: absolute;
-    top:340px;
+    top:350px;
     right:0px;
 }
 
 .font{
-    font-size: 1.2em;
-    padding: 15px 5px;
+    font-size: 1.0em;
+    padding: 25px 5px;
 }
 .buttonhero{
     display: block;
@@ -118,7 +124,8 @@ h1{
     h1 {
       font-size: 1.3em;
     }
-  }
+}
+
 .wrap{
     flex-wrap: wrap;
 }
@@ -287,7 +294,7 @@ main a{
 }
 .adjust{
     
-    height: 10vw;
+    height: 12vw;
     width: 25vw;
     padding: 30px 0;
     overflow: auto;
@@ -352,6 +359,17 @@ button:hover{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     cursor: pointer;
 }
-
-
-
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.hide{
+    display: none;
+    padding: 20px;
+}
+.content:hover .hide{
+    display: block;
+    position: absolute;
+    top:30px;
+    background-color:white;
+}

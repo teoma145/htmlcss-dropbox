@@ -3,24 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@200;400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>DropBox</title>
 </head>
 <body>
     <header>
-        <nav class="flex  justify-space  wrap positionfix">
-           <div class="flex padding-nav">
+        <nav class="flex  justify-space wrap positionfix">
+           <div class="flex  padding-nav">
               <img src="img/logo-small.png" alt="logo" class="logonav">
-              <a href="">Perchè Dropbox</a>
-              <a href="">Funzioni</a>
-              <a href="">Piani e prezzi</a>
+              <a href="pages/page.html">Perchè Dropbox</a>
+              <a href="pages/page.html">Funzioni</a>
+              <a href="pages/page.html">Piani e prezzi</a>
             </div> 
-           <div  class="flex padding-nav">
-             <a href="">Support</a>
-             <a href="">Contatta l'ufficio vendite</a>
-             <a href="">Accedi</a>
-             <button class="startbutton">Inizia</button>
+           <div  class="flex padding-nav relative">
+               <div class="content">
+               <a href="pages/page.html">Support</a>
+                <div class="hide">
+                <a href="pages/page.html">Contatta un nostro operatore</a>
+                <a href="pages/page.html">Consulta la nostra guida</a>
+                </div>
+               </div>
+              <a href="">Contatta l'ufficio vendite</a>
+              <a href="">Accedi</a>
+              <button class="startbutton">Inizia</button>
             </div>
         </nav>
         <div class="hero">
